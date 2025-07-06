@@ -1,4 +1,3 @@
-
 export interface Route {
   departure: string;
   destination: string;
@@ -21,7 +20,7 @@ export interface Schedule {
 
 export enum WeatherStatus {
   EXCELLENT = 'excellent',
-  GOOD = 'good', 
+  GOOD = 'good',
   MODERATE = 'moderate',
   POOR = 'poor',
 }
