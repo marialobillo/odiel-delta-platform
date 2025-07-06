@@ -1,4 +1,8 @@
-import { ClientProxyFactory, Transport } from '@nestjs/microservices';
+import {
+  ClientProxy,
+  ClientProxyFactory,
+  Transport,
+} from '@nestjs/microservices';
 import { RabbitMQ } from '../constants';
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';

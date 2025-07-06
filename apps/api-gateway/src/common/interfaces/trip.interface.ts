@@ -37,7 +37,7 @@ export interface Crew {
   certifications: string[];
 }
 
-export interface ITrip extends Document {
+export interface ITrip {
   name: string;
   route: Route;
   boat: Boat;
