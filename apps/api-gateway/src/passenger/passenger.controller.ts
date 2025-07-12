@@ -1,7 +1,16 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-return */
-import { Body, Controller, Post, Get, Param, Put, Delete} from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Post,
+  Get,
+  Param,
+  Put,
+  Delete,
+} from '@nestjs/common';
 import { PassengerDTO } from './dto/passenger.dto';
 import { Observable } from 'rxjs';
 import { PassengerMSG } from 'src/common/constants';
